@@ -48,3 +48,5 @@ app.listen(8800, ()=>{
     connect()
     console.log("connected to backend!")
 })
+
+//middlewares are important beacuse they can reach req and res before sending anything to user
