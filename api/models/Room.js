@@ -20,6 +20,6 @@ const RoomSchema = new mongoose.Schema({
     },
     roomNumber: [{number:Number, unavailableDates: {type: [Date]}}]
    
-},{timestamp: true})
+},{timestamps: true})
 
 export default mongoose.model("Room", RoomSchema)
